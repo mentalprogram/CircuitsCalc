@@ -81,7 +81,7 @@ JButton start;                                 /*initializing the start button t
             g.setLayout(layout);                 /*this set the "FlowLayout" as the layout for the components in the frame*/
           
           
-            g.setVisible(true);                /* */
+            g.setVisible(true);                  /* */
             
             g.setSize(500, 400);
             g.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
