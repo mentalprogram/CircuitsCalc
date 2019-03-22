@@ -40,22 +40,23 @@ import javax.swing.JTextField;
 
 package circuitscalc;
 
-/*
- *The Circuits Calculator program is an 
- *
- *application that does the math for ohm's law
- *
- *@Circuits Calculator
- *
- *@author Da'vontae West 
- *
- *@version 1.0
- *
- *@since 2019-02-26
- *
- *@Circuits Calculator
- * 
- */
+ The Circuits Calculator program is an 
+ 
+ application that does the math for ohm's law
+ 
+ @Circuits Calculator
+ 
+ @author Da'vontae West 
+ 
+ @version 1.0
+ 
+ @since 2019-02-26
+ 
+ @Circuits Calculator
+ 
+
+
+
 public class CircuitsCalc {
 
       /* This is the main method of the program that obtains an object to the startWin class.
