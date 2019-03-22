@@ -42,12 +42,17 @@ package circuitscalc;
 
 /*
  *The Circuits Calculator program is an 
+ *
  *application that does the math for ohm's law
  *
  *@Circuits Calculator
- *@author Da'vontae West   
+ *
+ *@author Da'vontae West 
+ *
  *@version 1.0
+ *
  *@since 2019-02-26
+ *
  *@Circuits Calculator
  * 
  */
@@ -56,7 +61,7 @@ public class CircuitsCalc {
       /* This is the main method of the program that obtains an object to the startWin class.
        * This method starts the program displaying a Window that has a button component labeled "start"
        */
-      public static void main(String[] args) { 
+   public static void main(String[] args) { 
         new startWin();       
     }
     
@@ -78,7 +83,7 @@ public class startWin extends JFrame{         /* here is where the class starts 
       JButton start;                                 /*declares the variable used to represent the "start" button that is displayed on 
                                                       the window */
         
-        startWin(){                            /* the main method of this class that holds the objects neccesary to create the window*/
+   startWin(){                            /* the main method of this class that holds the objects neccesary to create the window*/
             
             JFrame g = new JFrame();           /*this is the object that is called from the JFrame class that is the frame for the 
                                                  the window the contains the maximum, minimum, and exit buttons initialized the variable
@@ -113,12 +118,12 @@ public class startWin extends JFrame{         /* here is where the class starts 
 }
      
 
-    class stepHandler implements ActionListener {        /*this is the "stephandler" class that inherits the compnenets of the java 
+  class stepHandler implements ActionListener {        /*this is the "stephandler" class that inherits the compnenets of the java 
                                                            built- in class "ActionListener" that handle the action that happen when the 
                                                            "Start" Button is pressed*/
           
         
-        public void actionPerformed(ActionEvent c){     /*this is the method of the stephandler class that enacts the action when the 
+   public void actionPerformed(ActionEvent c){     /*this is the method of the stephandler class that enacts the action when the 
                                                             "Start" is pressed */
           
             new InpOutP();                            /*this the object of the "InpOuP" that creates the window with the components to 
@@ -139,7 +144,7 @@ public class startWin extends JFrame{         /* here is where the class starts 
     JLabel resistor1, voltageR, currentR;                     * and labels.
     JTextField tresistor1,tvoltageR, tcurrentR, answerR;      */
     
-    InpOutP (){                                               /* this is the method that holds the objects nessacary to create the 
+  InpOutP (){                                               /* this is the method that holds the objects nessacary to create the 
                                                                   window and components found in it*/
         
         JFrame f = new JFrame("Circuits Calculator");         /*Object for the window that declares "f" as the varible to represent it*/
@@ -208,7 +213,7 @@ public class startWin extends JFrame{         /* here is where the class starts 
         f.setSize(500, 400);                                 */
     }
     
-    public void actionPerformed(ActionEvent r){             /* this is the method that enacts the actions for the buttons and 
+  public void actionPerformed(ActionEvent r){             /* this is the method that enacts the actions for the buttons and 
                                                                textfields. It declares the variable "r" to represent it.*/        
     
     
