@@ -62,6 +62,10 @@ public class CircuitsCalc {
 public class startWin extends JFrame{         /*here is where the class starts and inherits the components of the class import 
                                               "javax.swing.JFrame"*/
 
+
+
+
+
 JButton start;                                 /*declares the variable used to represent the "start" button that is displayed on the 
                                                 window */
         
