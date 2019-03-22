@@ -196,7 +196,7 @@ JButton start;                                 /*declares the variable used to r
     }
     
     public void actionPerformed(ActionEvent r){             /* this is the method that enacts the actions for the buttons and 
-                                                               textfields*/        
+                                                               textfields. It declares the variable "r" to represent it.*/        
     
     
     
@@ -211,26 +211,27 @@ JButton start;                                 /*declares the variable used to r
         int crt = Integer.parseInt(cR);                      */
         
         
-        int r1a = 0;                                        /*this declares the variable for the result of the inputs*/
+        int r1a = 0;                                        /*this declares the variable for the textfield inputs*/
         
         
-        if(r.getSource()== cur){
-        r1a = vrt / r1t ;
-        }
-        else if(r.getSource()== res){
-        r1a = vrt / crt ;
-        }
-        else if (r.getSource()== volt){
-        r1a = r1t * crt;
+        if(r.getSource()== cur){                            /*
+        r1a = vrt / r1t ;                                    *
+        }                                                    *here are a set of if-else statements that does a certain equation.  
+        else if(r.getSource()== res){                        *the staments askes what button has been clicked and when that certain 
+        r1a = vrt / crt ;                                    *button is pressed in does one of the 3 ohm's law equations
+        }                                                    *
+        else if (r.getSource()== volt){                      *
+        r1a = r1t * crt;                                     *
+                                                             *
+        }else if (r.getSource()== cur){                      *
+        r1a = vrt / r1t;                                     *
+        }                                                    */
         
-        }else if (r.getSource()== cur){
-        r1a = vrt / r1t;
-        }
         
         
-        
-        String result = String.valueOf(r1a);
-        answerR.setText(result);
+        String result = String.valueOf(r1a);                /* this where a string vareiable is created to obtain the value of the  
+                                                             * buttons calcucations. The answer field is set to display the result .
+        answerR.setText(result);                             */ 
     }
     
 }
