@@ -40,7 +40,7 @@ public class startWin extends JFrame{
     class stepHandler implements ActionListener {
           
         
-        public void actionPerformed(ActionEvent c){
+        public void actionPerformed(ActionEvent c){ /* */
           
             new InpOutP(); 
         }
