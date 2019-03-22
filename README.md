@@ -75,8 +75,8 @@ public class startWin extends JFrame{         /* here is where the class starts 
 
 
 
-JButton start;                                 /*declares the variable used to represent the "start" button that is displayed on the 
-                                                window */
+      JButton start;                                 /*declares the variable used to represent the "start" button that is displayed on 
+                                                      the window */
         
         startWin(){                            /* the main method of this class that holds the objects neccesary to create the window*/
             
